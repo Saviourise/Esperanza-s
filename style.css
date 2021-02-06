@@ -49,7 +49,7 @@ header {
 		float: left;
 		margin-top: 20px;
 		text-align: left;
-		display: inline-block;
+		display: block;
 	}
 
 	header {
