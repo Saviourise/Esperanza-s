@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	background-color: cyan;
+	background-color: brown;
 	color: white;
 	padding: 25px 15px 25px 15px;
 	box-shadow: 0 0 5px grey;
@@ -67,6 +67,6 @@ header {
 		padding-left: 0px;
 	}
 	.menu {
-		padding: 0 5px 0 5px;
+		padding: 0 3px 0 3px;
 	}
 }	
