@@ -1,0 +1,74 @@
+body {
+	margin: auto;
+	font-family:Dosis, Comic Sans Ms;
+}
+
+header {
+	background-color: brown;
+	color: white;
+	padding: 25px 15px 25px 15px;
+	box-shadow: 0 0 5px grey;
+	text-align: center;
+}
+
+#headerLogo {
+	float: right;
+	margin-top: -45px;
+}
+
+#headerName {
+	float: left;
+}
+
+#headerName:hover {
+	cursor: default;
+}
+
+#homeMenu {
+	color: green;
+}
+
+#headerMenu {
+	text-align: center;
+}
+
+.menu {
+	padding: 0 10px 0 10px;
+}
+
+.menu:hover {
+	cursor: pointer;
+}
+
+@media(max-width: 768px) {
+	body {
+		font-size: 70%;
+	}
+
+	#headerMenu {
+		float: left;
+		margin-top: 20px;
+		text-align: left;
+		display: block;
+	}
+
+	header {
+		text-align: left;
+		padding: 15px 15px 15px 15px;
+		height: 50px;
+	}
+
+	#headerLogo {
+		float: right;
+		margin-top: -30px;
+	}
+
+	#homeMenu {
+		padding-left: 0px;
+	}
+
+	.menu {
+		padding: 0 3px 0 3px;
+	}
+
+}	
