@@ -66,5 +66,7 @@ header {
 	#homeMenu {
 		padding-left: 0px;
 	}
-
+	.menu {
+		padding: 0 5px 0 5px;
+	}
 }	
