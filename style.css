@@ -130,6 +130,11 @@ header {
 		float: right;
 		margin-top: -40px;
 	}
+	
+	#headerName {
+		float: left;
+		font-size: 15px;
+	}
 
 	#homeMenu {
 		padding-left: 0px;
